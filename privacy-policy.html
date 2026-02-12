@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizlilik Politikası - SolveEarn</title>
+    <style>
+        :root {
+            --primary: #FFC107;
+            --secondary: #1A227F;
+            --bg: #121320;
+            --surface: #1C1D2E;
+            --text: #F6F6F8;
+            --text-secondary: #A0A0A0;
+            --accent: #534BAE;
+            --success: #4CAF50;
+            --border: #2C2C2C;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .container {
+            background-color: var(--surface);
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid var(--border);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--primary);
+        }
+
+        h1 {
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 24px;
+            background-color: var(--primary);
+            border-radius: 4px;
+        }
+
+        p,
+        li {
+            color: var(--text-secondary);
+            font-size: 16px;
+        }
+
+        strong {
+            color: var(--text);
+        }
+
+        .highlight-box {
+            background-color: rgba(255, 193, 7, 0.1);
+            border-left: 4px solid var(--primary);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+        }
+
+        .last-updated {
+            text-align: center;
+            font-size: 14px;
+            color: var(--accent);
+            margin-top: -20px;
+            margin-bottom: 40px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.8;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gizlilik Politikası</h1>
+        <p class="last-updated">Son Güncelleme: 12 Şubat 2026</p>
+
+        <p>SolveEarn ekibi olarak gizliliğinize en üst düzeyde önem veriyoruz. Bu politika, uygulamamızı kullandığınızda
+            verilerinizin nasıl toplandığını, hassas izinlerin neden gerektiğini ve güvenliğinizi nasıl sağladığımızı
+            detaylandırır.</p>
+
+        <h2>1. Veri Toplama ve Hesap Yönetimi</h2>
+        <div class="highlight-box">
+            <p><strong>Login ve Kayıt:</strong> Hesabınızı oluşturmak ve senkronize etmek için e-posta adresiniz, adınız
+                ve sınav türü bilginiz toplanır. Şifreleriniz yüksek güvenlikli kriptografik yöntemlerle korunur.</p>
+        </div>
+        <p>Uygulama genelinde toplanan temel veriler şunlardır:</p>
+        <ul>
+            <li><strong>Profil Bilgileri:</strong> İlerlemenizi takip etmek ve rozet kazanmanızı sağlamak için
+                kullanılır.</li>
+            <li><strong>Sınav Hedefleri:</strong> Seçtiğiniz sınav türüne göre özelleştirilmiş içerik ve soru havuzu
+                sunmak amacıyla işlenir.</li>
+        </ul>
+
+        <h2>2. Hassas İzinler ve Şeffaflık</h2>
+        <p>SolveEarn, odaklanma hedeflerinizi gerçekleştirmek için Android işletim sisteminin sunduğu bazı özel izinleri
+            kullanır. Bu izinler Google Play politikalarına tam uyum içinde ve kullanıcı rızasıyla çalışır:</p>
+
+        <h3>A. Ekran Üzerine Çizme (Overlay - SYSTEM_ALERT_WINDOW)</h3>
+        <p>Odaklanma modundayken engellediğiniz uygulamalara giriş yapmaya çalıştığınızda, SolveEarn bu uygulamaların
+            üzerinde bir engel ekranı gösterir. Bu izin sadece engel ekranını yansıtmak amacıyla kullanılır ve
+            ekranınızdaki diğer verileri izlemez veya kaydetmez.</p>
+
+        <h3>B. Kullanım Erişimi (PACKAGE_USAGE_STATS)</h3>
+        <p>Hangi uygulamaların o an aktif olduğunu tespit ederek, oyalayıcı uygulamaları belirlemek için kullanılır. Bu
+            veriler <strong>sadece cihazınızda yerel olarak analiz edilir</strong>; kesinlikle dış sunuculara aktarılmaz
+            veya üçüncü taraflarla paylaşılmaz.</p>
+
+        <h2>3. Abonelikler ve Ödeme Güvenliği (RevenueCat)</h2>
+        <p>Tüm finansal işlemleriniz ve abonelik yönetiminiz RevenueCat altyapısı ve Google Play Store üzerinden
+            gerçekleştirilir.</p>
+        <ul>
+            <li><strong>Kredi Kartı Bilgileri:</strong> SolveEarn hiçbir ödeme bilginizi (kart numarası, CVV vb.) görmez
+                ve saklamaz.</li>
+            <li><strong>Abonelik Durumu:</strong> RevenueCat aracılığıyla sadece "Pro" veya "Ücretsiz" olup olmadığınız
+                bilgisi sorgulanır.</li>
+        </ul>
+
+        <h2>4. Özellik Bazlı Veri İşleme</h2>
+        <ul>
+            <li><strong>Çalışma Takvimi:</strong> Oluşturduğunuz odaklanma programları sadece sizin kullanımınız
+                içindir.</li>
+            <li><strong>İstatistikler ve Analiz:</strong> Çözdüğünüz soru sayıları ve başarı oranlarınız, gelişiminizi
+                şematik olarak görmeniz için saklanır.</li>
+            <li><strong>Market Sistemi:</strong> Kazandığınız puanlar ve ödüller sadece uygulama içi gamification
+                (oyunlaştırma) amaçlıdır.</li>
+        </ul>
+
+        <h2>5. Veri Güvenliği ve Haklarınız</h2>
+        <p>Verileriniz endüstri standartlarında korunmaktadır. Dilediğiniz zaman hesabınızın ve tüm verilerinizin
+            silinmesini Ayarlar sekmesinden talep edebilirsiniz.</p>
+
+        <div class="footer">
+            <p>© 2026 SolveEarn. Tüm hakları saklıdır.</p>
+            <p>İletişim: <a href="mailto:destek@solveearn.com">destek@solveearn.com</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
